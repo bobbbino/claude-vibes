@@ -1,4 +1,4 @@
-# Claude Code Mastery Framework v2.0
+# Claude Vibes Framework v2.0
 ## Fully Automated Command-Based Development System
 
 A complete development framework that transforms Claude Code into an autonomous development system using custom slash commands for every stage. Zero copy-paste, maximum automation.
@@ -642,6 +642,150 @@ Display current project state and progress.
 6. Next recommended action
 
 Read from specs/README.md and memory.
+```
+
+### .claude/commands/write-test.md
+```markdown
+# Write Test
+Create comprehensive tests for current feature or specified component.
+
+## Usage
+`/write-test [optional: feature/component name]`
+
+## Example
+`/write-test "user authentication"`
+`/write-test` (tests current feature)
+
+## Process
+1. Identify what to test:
+   - If feature specified: Focus on that feature
+   - If not specified: Read current task from sprint plan
+2. Analyze implementation to understand:
+   - Expected behavior and edge cases
+   - Input validation requirements
+   - Error conditions
+3. Use parallel sub-agents to create tests:
+   - **Agent 1**: Unit tests for individual functions/methods
+   - **Agent 2**: Integration tests for component interactions
+   - **Agent 3**: Edge cases and error handling tests
+   - **Agent 4**: Performance/load tests (if applicable)
+4. Follow testing best practices:
+   - Arrange-Act-Assert pattern
+   - Descriptive test names
+   - Test isolation
+   - Mock external dependencies
+5. Ensure tests align with:
+   - Acceptance criteria from sprint plan
+   - Technology stack testing conventions
+
+## Output
+- Test files in appropriate test directory
+- Updated test documentation
+- Coverage report (if applicable)
+```
+
+### .claude/commands/code-review.md
+```markdown
+# Code Review
+Review recent code changes for quality, security, and best practices.
+
+## Usage
+`/code-review [optional: commit range or file paths]`
+
+## Example
+`/code-review HEAD~3..HEAD`
+`/code-review src/auth/`
+`/code-review` (reviews uncommitted changes)
+
+## Process
+1. Identify scope of review:
+   - If specified: Review given commits/files
+   - If not specified: Review uncommitted changes (git diff)
+2. Use parallel sub-agents for comprehensive review:
+   - **Agent 1**: Code quality and style
+     - Naming conventions
+     - Code organization
+     - DRY principles
+   - **Agent 2**: Security vulnerabilities
+     - Input validation
+     - Authentication/authorization
+     - Sensitive data handling
+   - **Agent 3**: Performance and efficiency
+     - Algorithm complexity
+     - Database queries
+     - Resource usage
+   - **Agent 4**: Testing and documentation
+     - Test coverage
+     - Comment quality
+     - API documentation
+3. Cross-reference with:
+   - Project coding standards
+   - Architecture decisions (ADRs)
+   - Security best practices
+
+## Output
+- Review report with:
+  - Critical issues (must fix)
+  - Suggestions (should consider)
+  - Minor improvements (nice to have)
+- Specific line-by-line comments
+- Security vulnerability alerts
+- Performance optimization suggestions
+```
+
+### .claude/commands/update-docs.md
+```markdown
+# Update Documentation
+Synchronize documentation with current code implementation.
+
+## Usage
+`/update-docs [optional: specific area]`
+
+## Example
+`/update-docs "API endpoints"`
+`/update-docs` (updates all documentation)
+
+## Process
+1. Scan for documentation needs:
+   - Read current code implementation
+   - Check existing documentation
+   - Identify gaps or outdated information
+2. Use parallel sub-agents to update:
+   - **Agent 1**: API documentation
+     - Endpoint descriptions
+     - Request/response schemas
+     - Authentication requirements
+   - **Agent 2**: Code documentation
+     - Function/class docstrings
+     - Inline comments for complex logic
+     - Type hints/annotations
+   - **Agent 3**: User documentation
+     - README updates
+     - Setup instructions
+     - Usage examples
+   - **Agent 4**: Architecture documentation
+     - Update diagrams if needed
+     - Component descriptions
+     - Integration guides
+3. Ensure documentation:
+   - Matches current implementation
+   - Follows project documentation standards
+   - Includes examples where helpful
+   - Is clear and concise
+
+## Output
+- Updated documentation files
+- API specification updates
+- README improvements
+- Code comment additions
+- Changelog updates (if applicable)
+
+## Final Step
+Review all documentation for:
+- Accuracy with current code
+- Completeness
+- Consistency across all docs
+- No outdated information
 ```
 
 ## Step-by-Step User Guide
