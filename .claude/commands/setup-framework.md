@@ -13,9 +13,6 @@ Initializes the complete Claude Code Mastery Framework structure.
    - specs/05-detailed-design/
    - specs/06-implementation/
    - .claude/commands/
-   - tests/
-   - docs/
-   - src/
 
 2. Create CLAUDE.md with project configuration template
 3. Create specs/README.md with stage tracking

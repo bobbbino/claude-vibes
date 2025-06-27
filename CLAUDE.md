@@ -9,14 +9,14 @@ Next Stage: 1 (Problem Analysis)
 
 ## Project Type
 - Framework: Claude Code Mastery v2.0
-- Language: Python 3.11+
+- Language: TBD (determined by project needs)
 - Architecture: TBD (determined in Stage 3)
-- Domain: Development Automation
+- Domain: TBD (determined in Stage 1)
 
 ## Development Standards
-- Testing: TDD with pytest
-- Linting: ruff, mypy
-- Formatting: black
+- Testing: TDD with appropriate framework
+- Linting: Language-appropriate tools
+- Formatting: Language-appropriate standards
 - Documentation: Comprehensive with examples
 - Git: Conventional commits
 
