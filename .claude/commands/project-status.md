@@ -78,6 +78,35 @@ Next Steps:
 → /next-step (for guidance)
 ```
 
+## Hybrid Mode Display
+```
+🎭 Claude Vibes Hybrid Mode Status
+═══════════════════════════════════
+
+Mode: Hybrid (Mix & Match)
+Configuration: Custom
+
+Stage Progress:
+✅ Stage 0: Traditional - Problem statement complete
+✅ Stage 1: Traditional - Analysis complete
+⏳ Stage 2: Traditional - Requirements in progress
+⏳ Stage 3: Fast-Track - Pending (use /transition-to-fast-track)
+⏳ Stage 4: Fast-Track - Pending
+⏳ Stage 5: Fast-Track - Pending
+⏳ Stage 6: Fast-Track - Pending
+
+Traditional Stages: 0, 1, 2 (Planning)
+Fast-Track Stages: 3, 4, 5, 6 (Building)
+
+Current Position: Stage 2 (Requirements)
+Next Command: /gather-requirements
+
+Transition Point: After Stage 2
+→ Use /transition-to-fast-track when ready
+
+Time Savings: ~10 days vs full traditional
+```
+
 ## Mode Switching Detection
 If mode not set in CLAUDE.md:
 ```
@@ -86,10 +115,12 @@ If mode not set in CLAUDE.md:
 This project appears to be:
 □ Fast-Track (rapid MVP development)
 □ Traditional (comprehensive planning)
+□ Hybrid (mix and match stages)
 
 Initialize with:
 → /setup-framework (fast-track default)
 → /setup-framework --traditional
+→ /setup-framework --hybrid
 ```
 
 ## Additional Metrics (Both Modes)

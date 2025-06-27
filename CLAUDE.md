@@ -4,7 +4,7 @@
 This is the master template for Claude Vibes - a framework for rapid MVP development with AI-powered automation.
 
 ## Framework Mode
-Mode: fast-track  # Default mode for rapid MVP development
+Mode: fast-track  # Options: fast-track (default), traditional, hybrid
 Started: [timestamp]
 
 ## Fast Track Status
@@ -12,6 +12,16 @@ Started: [timestamp]
 - [ ] Stack selected  
 - [ ] First feature implemented
 - [ ] Deployed
+
+## Hybrid Mode Configuration (if using hybrid)
+# Stage Configuration:
+# - Stage 0: [traditional/fast-track]
+# - Stage 1: [traditional/fast-track]
+# - Stage 2: [traditional/fast-track]
+# - Stage 3: [traditional/fast-track]
+# - Stage 4: [traditional/fast-track]
+# - Stage 5: [traditional/fast-track]
+# - Stage 6: [traditional/fast-track]
 
 ## Project Type
 - Framework: Claude Vibes v2.0
@@ -42,6 +52,14 @@ Enable with: `/setup-framework --traditional`
 - `/select-components` - Stage 4: Components
 - `/design-detailed` - Stage 5: Detailed design
 - `/plan-implementation` - Stage 6: Sprint planning
+
+## Hybrid Mode Commands (mix and match)
+Enable with: `/setup-framework --hybrid`
+- `/hybrid-mode` - Configure which stages use which approach
+- `/use-traditional-for` - Set stages to use traditional
+- `/use-fast-track-for` - Set stages to use fast-track
+- `/transition-to-fast-track` - Switch from traditional to fast
+- `/formalize-with-traditional` - Generate docs from code
 
 ## Memory
 # Framework: Claude Vibes Fast-Track

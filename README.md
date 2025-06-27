@@ -78,6 +78,18 @@ This creates:
 - All traditional planning commands
 - Comprehensive documentation templates
 
+### Hybrid Installation (Mix & Match)
+
+```bash
+/setup-framework --hybrid
+/hybrid-mode  # Configure your perfect mix
+```
+
+This creates:
+- Both traditional and fast-track structures
+- All commands from both modes
+- Flexible stage configuration
+
 ## 📚 How It Works
 
 ### Choose Your Mode
@@ -116,6 +128,16 @@ This creates:
 | `/code-review` | Review recent changes |
 | `/update-docs` | Sync documentation with code |
 | `/project-status` | Check current progress |
+
+### Hybrid Mode Commands
+
+| Command | Purpose |
+|---------|---------|
+| `/hybrid-mode` | Configure which stages use which approach |
+| `/use-traditional-for [stages]` | Set traditional for specific stages |
+| `/use-fast-track-for [stages]` | Set fast-track for specific stages |
+| `/transition-to-fast-track` | Switch from traditional to fast-track |
+| `/formalize-with-traditional [stage]` | Generate traditional docs from code |
 
 ## 🎮 Complete Walkthrough
 
@@ -163,11 +185,62 @@ This creates:
 /implement-next
 ```
 
+## 🎭 Hybrid Mode - Best of Both Worlds
+
+Get the best of both worlds by combining Traditional planning with Fast-Track implementation:
+
+### When to Use Hybrid Mode
+
+- **Thorough Planning + Rapid Building**: Need careful requirements but want to code fast
+- **Fast MVP + Later Documentation**: Build quickly, formalize for stakeholders later
+- **Partial Traditional**: Only need specific stages (like architecture) to be comprehensive
+
+### Hybrid Workflows
+
+#### Option 1: Plan Traditionally, Build Fast
+```bash
+# Start in hybrid mode
+/setup-framework --hybrid
+
+# Configure your approach
+/use-traditional-for "problem-analysis,requirements"
+/use-fast-track-for "implementation"
+
+# Do thorough planning
+/analyze-problem
+/gather-requirements
+
+# Switch to fast implementation
+/transition-to-fast-track
+/fast-stack
+/fast-implement "features"
+```
+
+#### Option 2: Build Fast, Document Later
+```bash
+# Start with fast-track
+/setup-framework
+/turbo-mvp "your idea"
+
+# After validation, formalize
+/formalize-with-traditional "architecture"
+/formalize-with-traditional "requirements"
+# Generates professional docs from your code
+```
+
+#### Option 3: Custom Mix
+```bash
+# Configure exactly what you need
+/hybrid-mode
+# Interactive configuration of each stage
+```
+
 ## 🔥 Key Features
 
-### 1. Two Development Modes
+### 1. Three Development Modes
 - **Fast-Track (Default)**: 5-minute MVP development with AI parallel processing
 - **Traditional**: Comprehensive 7-stage workflow for enterprise projects
+- **Hybrid**: Mix and match stages from both modes for maximum flexibility
 - **Mode Switching**: Change modes anytime without losing work
 
 ### 2. AI-Powered Acceleration
@@ -231,6 +304,28 @@ This creates:
 /implement-next     # Implements user authentication
 ```
 
+### Example 3: Hybrid Enterprise Startup
+
+```bash
+# Need solid requirements but fast implementation
+/setup-framework --hybrid
+/use-traditional-for "problem-analysis,requirements"
+
+# Thorough planning phase (1 day)
+/analyze-problem
+/gather-requirements
+
+# Transition to fast building
+/transition-to-fast-track
+/fast-stack  # Selects stack based on requirements
+/fast-implement "user authentication"
+/fast-implement "core business logic"
+
+# Later, for investor presentation
+/formalize-with-traditional "architecture"
+# Generates architecture docs from implementation
+```
+
 ## 🛡️ Best Practices
 
 ### For Fast-Track Mode
@@ -245,7 +340,13 @@ This creates:
 3. **Review Key Outputs**: Check ADRs and architecture decisions
 4. **Validate Package Versions**: Ensure all exist in registries
 
-### For Both Modes
+### For Hybrid Mode
+1. **Plan What Matters**: Use traditional only for critical stages
+2. **Transition Smoothly**: Use `/transition-to-fast-track` when ready
+3. **Document When Needed**: Formalize only for stakeholders/compliance
+4. **Stay Flexible**: Adjust your approach as the project evolves
+
+### For All Modes
 - Let Claude think through complex problems
 - Use multiple terminal windows for parallel work
 - Review AI-generated documentation
