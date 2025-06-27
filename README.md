@@ -2,28 +2,36 @@
 
 <div align="center">
 
-🚀 **Fully Automated Development with Claude Code** 🚀
+🚀 **AI-Powered MVP Development in 5 Minutes** 🚀
 
 [![Framework Version](https://img.shields.io/badge/Framework-v2.0-blue.svg)](https://github.com/bobbbino/claude-vibes)
 [![Claude Code Compatible](https://img.shields.io/badge/Claude%20Code-Compatible-green.svg)](https://claude.ai/code)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-*Transform Claude Code into an autonomous development system that takes your project from idea to implementation with zero copy-paste.*
+*Get from idea to deployed MVP in record time with AI-powered Fast-Track mode, or use Traditional mode for comprehensive enterprise planning.*
 
 </div>
 
 ## 🎯 What is Claude Vibes?
 
-Claude Vibes is a comprehensive development framework that automates the entire software development lifecycle through intelligent commands. It guides you through 7 structured stages, from initial problem definition to fully implemented code.
+Claude Vibes is an AI-powered development framework that offers two modes:
+- **Fast-Track Mode (Default)**: Go from idea to working code in 5 minutes
+- **Traditional Mode**: Comprehensive 7-stage workflow for enterprise projects
 
 ### Why Claude Vibes?
 
+#### Fast-Track Mode Benefits:
+- **5 Minutes to Code** - Start building immediately
+- **95% Faster** than traditional planning approaches
+- **AI Parallel Processing** - Documentation generated while you code
+- **Zero Decision Paralysis** - Smart defaults for everything
+- **Rapid Validation** - Ship and get feedback in hours, not weeks
+
+#### Traditional Mode Benefits:
 - **85% Reduction** in manual specification work
-- **Zero Copy-Paste** between development stages
 - **100% Traceable** requirements to implementation
-- **3x Faster** development with proper planning
 - **50% Fewer Bugs** through comprehensive upfront design
-- **100% Implementable** package selections through registry verification
+- **Perfect for** large teams and regulated industries
 
 ## 🚀 Quick Start
 
@@ -33,33 +41,61 @@ Claude Vibes is a comprehensive development framework that automates the entire 
 - Git initialized in your project directory
 - Basic familiarity with command-line interfaces
 
-### Installation
+### Fast-Track Installation (5 Minutes to MVP!)
 
-1. Clone this repository or copy the framework files:
+1. Clone this repository:
 ```bash
 git clone https://github.com/bobbbino/claude-vibes.git
 cd claude-vibes
 ```
 
-2. Start Claude Code in your project directory:
+2. Start Claude Code:
 ```bash
 claude
 ```
 
-3. Initialize the framework:
+3. Initialize with Fast-Track mode (default):
 ```bash
 /setup-framework
 ```
 
-This will:
-- Create the complete specs/ directory structure
-- Set up all custom commands
-- Configure Context7 MCP server for documentation access
-- Create problem statement template
+4. Build your MVP:
+```bash
+/turbo-mvp "your app idea"
+# Example: /turbo-mvp "expense tracker with charts"
+```
+
+**That's it!** You're coding in 5 minutes. AI handles planning in the background.
+
+### Traditional Installation (For Enterprise Projects)
+
+```bash
+/setup-framework --traditional
+```
+
+This creates:
+- Complete 7-stage specs/ directory structure
+- All traditional planning commands
+- Comprehensive documentation templates
 
 ## 📚 How It Works
 
-### The 7-Stage Development Process
+### Choose Your Mode
+
+```bash
+/show-modes  # See detailed comparison of both modes
+```
+
+### Fast-Track Mode (Default) - MVP in Minutes
+
+| Command | Purpose | Time |
+|---------|---------|------|
+| `/turbo-mvp "idea"` | All-in-one MVP starter | 5 min |
+| `/fast-define` | Quick problem definition | 2 min |
+| `/fast-stack` | Instant stack selection | 1 min |
+| `/fast-implement` | Direct to coding | Immediate |
+
+### Traditional Mode - 7-Stage Development Process
 
 | Stage | Command | Purpose |
 |-------|---------|---------|
@@ -83,79 +119,108 @@ This will:
 
 ## 🎮 Complete Walkthrough
 
-### Starting a New Project
+### Fast-Track: Building an MVP (Default)
 
 ```bash
+# Total time: 5 minutes to working code!
+
 # 1. Initialize framework
 /setup-framework
 
-# 2. Edit problem statement
-# Open specs/00-initial-setup/problem-statement.md and fill it out
+# 2. Build your MVP with one command
+/turbo-mvp "expense tracker with charts and categories"
 
-# 3. Clarify requirements
+# You now have:
+# ✅ Working API endpoint
+# ✅ Basic UI
+# ✅ Database schema
+# ✅ Test file
+# ✅ Deployment config
+
+# 3. Add features incrementally
+/fast-implement "user can upload receipts"
+/fast-implement "monthly spending report"
+/fast-implement "export to CSV"
+
+# 4. Check progress
+/project-status
+```
+
+### Traditional: Enterprise Project
+
+```bash
+# For comprehensive planning:
+/setup-framework --traditional
+
+# Then follow the 7-stage process:
 /discuss-problem
-
-# 4. Analyze the problem
 /analyze-problem
-
-# 5. Gather requirements
 /gather-requirements
-
-# 6. Design architecture
 /design-architecture
-
-# 7. Select components
 /select-components
-
-# 8. Create detailed design
 /design-detailed
-
-# 9. Plan implementation
 /plan-implementation
-
-# 10. Start coding!
 /implement-next
 ```
 
 ## 🔥 Key Features
 
-### 1. Language & Technology Agnostic
-- Works with any programming language
-- Adapts to your technology preferences
-- No hardcoded assumptions
+### 1. Two Development Modes
+- **Fast-Track (Default)**: 5-minute MVP development with AI parallel processing
+- **Traditional**: Comprehensive 7-stage workflow for enterprise projects
+- **Mode Switching**: Change modes anytime without losing work
 
-### 2. MCP Server Integration
+### 2. AI-Powered Acceleration
+- Parallel processing of documentation while you code
+- Smart defaults and instant stack selection
+- Background generation of tests and requirements
+- Intelligent code suggestions based on context
+
+### 3. Language & Technology Agnostic
+- Works with any programming language
+- Pre-configured stacks for common scenarios
+- Adapts to your technology preferences
+
+### 4. MCP Server Integration
 - **Context7**: Real-time documentation for 20,000+ libraries
 - **Playwright MCP**: Browser automation for web apps
 - Automatic configuration during setup
 
-### 3. Parallel Processing
-- Uses sub-agents to work on multiple tasks simultaneously
-- Maximizes efficiency without compromising quality
-- Intelligent task distribution
-
-### 4. Quality Assurance Built-In
-- Enforces TDD (Test-Driven Development)
-- Runs all tests before marking tasks complete
-- Verifies acceptance criteria
+### 5. Quality Assurance Built-In
+- Progressive testing (start simple, enhance later)
+- Smart test generation
+- Automated code review
 - Package version verification
 
-### 5. Smart Documentation
-- Maintains consistency across all specifications
-- User clarification at each stage
-- Complete traceability from problem to code
+## 📋 Examples
 
-## 📋 Example: Building a Todo App
+### Example 1: Fast-Track Todo App (5 minutes)
 
 ```bash
-# Initialize
+# Initialize and build
 /setup-framework
+/turbo-mvp "todo app with due dates and categories"
+
+# Add features as needed
+/fast-implement "mark todo as complete"
+/fast-implement "filter by category"
+/fast-implement "due date notifications"
+
+# Deploy when ready
+/deploy
+```
+
+### Example 2: Traditional Enterprise App
+
+```bash
+# Initialize with traditional mode
+/setup-framework --traditional
 
 # Edit problem statement
 # "Build a web-based todo application with user authentication,
 #  task management, and real-time collaboration features"
 
-# Work through stages
+# Work through all 7 stages
 /discuss-problem    # Clarifies: "How many users? Mobile support?"
 /analyze-problem    # Creates user personas, market research
 /gather-requirements # Defines features, APIs, acceptance criteria
@@ -163,49 +228,53 @@ This will:
 /select-components  # Selects Next.js 14.2.0, PostgreSQL 16
 /design-detailed    # Creates database schema, API specs
 /plan-implementation # Creates 6 sprints, 47 tasks
-
-# Start implementing
 /implement-next     # Implements user authentication
-# ... continues until complete
 ```
 
 ## 🛡️ Best Practices
 
-### 1. Fill Out Problem Statement Thoroughly
-The problem statement drives everything. Include:
-- Problem description
-- Target users
-- Goals and constraints
-- Technology preferences
+### For Fast-Track Mode
+1. **Start Simple**: Use `/turbo-mvp` with a clear, concise idea
+2. **Iterate Quickly**: Add features one at a time with `/fast-implement`
+3. **Ship Early**: Deploy and get feedback before adding complexity
+4. **Trust the Defaults**: AI selects optimal stacks for your use case
 
-### 2. Trust the Process
-- Follow stages sequentially
-- Don't skip stages
+### For Traditional Mode
+1. **Fill Out Problem Statement Thoroughly**: Include all constraints and preferences
+2. **Follow Stages Sequentially**: Each builds on the previous
+3. **Review Key Outputs**: Check ADRs and architecture decisions
+4. **Validate Package Versions**: Ensure all exist in registries
+
+### For Both Modes
 - Let Claude think through complex problems
-
-### 3. Review Key Outputs
-- Check Architecture Decision Records (ADRs)
-- Validate package versions exist in registries
-- Review sprint plans before implementation
-
-### 4. Leverage Parallelization
-- Multiple terminal windows for faster development
-- Let sub-agents work concurrently
-- Review consolidated outputs
+- Use multiple terminal windows for parallel work
+- Review AI-generated documentation
+- Switch modes if project scope changes
 
 ## ⚠️ Common Pitfalls
 
-1. **Using Non-Existent Package Versions**
-   - Framework verifies all versions in official registries
-   - Never assumes GitHub tags = published packages
+### Fast-Track Mode
+1. **Over-Engineering the MVP**
+   - Start with one core feature
+   - Add complexity only after validation
+   
+2. **Ignoring AI Suggestions**
+   - Trust the pre-configured stacks
+   - Customize after MVP is working
 
-2. **Skipping Stages**
+### Traditional Mode
+1. **Skipping Stages**
    - Each stage builds on previous outputs
    - Missing stages = implementation failures
 
-3. **Ignoring Test Failures**
-   - `/implement-next` requires all tests to pass
-   - Fix immediately, don't accumulate debt
+2. **Using Non-Existent Package Versions**
+   - Framework verifies all versions
+   - Never assumes GitHub tags = published
+
+### Both Modes
+- Fix test failures immediately
+- Review generated documentation
+- Don't mix modes without switching properly
 
 ## 🤝 Contributing
 
@@ -221,18 +290,29 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 - Uses [Context7](https://github.com/upstash/context7) for documentation
 - Inspired by industry best practices in software engineering
 
+## 🔄 Switching Modes
+
+```bash
+# From fast-track to traditional:
+/enable-traditional
+
+# View mode comparison:
+/show-modes
+```
+
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/bobbbino/claude-vibes/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/bobbbino/claude-vibes/discussions)
 - **Documentation**: [Full Framework Guide](docs/ccm-framework.md)
+- **Fast-Track Guide**: [Rapid MVP Development](docs/rapid-mvp-ideas.md)
 
 ---
 
 <div align="center">
 
-**Ready to transform your development process?**
+**Ready to build your MVP in 5 minutes?**
 
-[Get Started](#-quick-start) • [Read the Docs](docs/ccm-framework.md) • [View Examples](#-example-building-a-todo-app)
+[Fast-Track Start](#fast-track-installation-5-minutes-to-mvp) • [Traditional Mode](#traditional-installation-for-enterprise-projects) • [View Examples](#-examples)
 
 </div>
